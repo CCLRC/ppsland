@@ -1,0 +1,7 @@
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+  background-image: url(../images/grand_central_photo_web.jpg);
+  background-repeat:no-repeat;
+  display: compact;
+}
