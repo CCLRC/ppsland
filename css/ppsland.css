@@ -1,7 +1,53 @@
-body {
-  min-height: 2000px;
-  padding-top: 70px;
-  background-image: url(../images/grand_central_photo_web.jpg);
-  background-repeat:no-repeat;
-  display: compact;
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
 }
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.jumbotron-top {
+  background-image: url(../images/grand_central_photo_web.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+.jumbotron-mid {
+  background-image: url(../images/night_highway.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+.jumbotron-mid-2 {
+  background-image: url(../images/train_tracks.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+.call-to-action {
+  margin: 30px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  opacity: 0.89;
+  filter: alpha(opacity=89); /* For IE8 and earlier */
+}
+
+.call-to-action-2 {
+  margin: 30px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  opacity: 0.95;
+  filter: alpha(opacity=95); /* For IE8 and earlier */
+}
+
+

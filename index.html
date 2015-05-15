@@ -18,7 +18,7 @@
   </head>
   <body>
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -31,31 +31,114 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
+            <li class="active"><a href="#top">Home</a></li>
+            <li><a href="#pps-features">Features</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/ .nav-collapse -->
       </div>
     </nav>
 
-    <div class="container">
-      <div class="jumbotron">
+    <!-- Main jumbotron for call to action-->
+    <div class="jumbotron jumbotron-top" id="top">
+      <div class="container call-to-action">
         <h1>Property Profile System</h1>
         <h3>Property Management Software for Land Banks by a Land Bank</h3>
-        <p>PPS is a cloud based property management solution that aids as a central location for all information related to properties that are either to be acquired, in inventory or disposed by a land bank. </p>
+        <p>PPS is a robust cloud based property management solution that aids as a central location for all information related to properties that are either to be acquired, in inventory or disposed by a land bank.</p>
         <p>PPS allows for end-to-end property, neighborhood and regional analysis of land bank data by streamlining repetitive tasks and eliminating duplication.</p>
         <p>
           <a href="mailto:schramm@cuyahogalandbank.org?subject=About PPS" class="btn btn-lg btn-primary" role="button">Request more information</a>
         </p>
-
-        <p></p>
       </div>
     </div>
+
+    <!-- features -->
+    <div class="jumbotron jumbotron-mid" id="pps-features">
+      <div class="container call-to-action">
+        <h1>PPS Features</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <img class="img-responsive" src="images/responsive-design.svg" alt="PPS is available anywhere">
+          </div>
+          <div class="col-md-8">
+            <ul>
+              <li>Web-based forms for data entry and tracking.</li>
+              <li>PDF document generation (proceed orders, inspection reports, deeds, contracts etc).</li>
+              <li>Ability to upload and manage photos and documents</li>
+              <li>Separate logins and modules for contractors, inspectors, board memebers, etc.</li>
+              <li>Standard and custom reports.</li>
+              <li>Integration of <strong>local data</strong>, local geographies and geographic target areas</li>
+              <li>Data visualization using maps and charts.</li>
+              <li>Contractor management- contractor type(s), contact information, active or inactive, license and insurance credentials.</li>
+              <li>Email reminders, notifications and alerts based on status changes on ticklers and schedules.</li>
+              <li>Property purchase application information submitted online</li>
+              <li>Contractor and inspector assignment modules for jobs including, but not limited to, asbestos survey and removal, demolition, field servicing, trash removal, inspections and other assessments.</li>
+              <li>Contractor activity tracking information can be used to generate invoices for contractors to submit for payment.</li>
+              <li>Connections ot public facing website for property listings, inquiries, submissions and organizational accountability</li>
+              <li>Data import and export utility</li>
+              <li>APIs that allows PPS to integrate with other API enabled data systems or websites.</li>
+            </ul>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="jumbotron jumbotron-mid-2">
+      <div class="container call-to-action-2">
+        <div class="row">
+          <div class="col-md-6">
+            <!-- why use pps -->
+            <h2>Why use PPS</h2>
+            <ul>
+              <li>Access real-time property information from anywhere using a mobile device which fosters <strong>accountability</strong>.</li>
+              <li>Data are critical to efficient and smart land banking operations, success and credibility.</li>
+              <li>The more efficient all land banks are, the better off the land banking movement will be!</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <!-- how does pps work -->
+            <h2>How does PPS Work</h2>
+            <ul>
+              <li>A series of building blocks that can be customised to make every land banks' version unique regardless of size. <strong>NOT AN OFF-THE-SHELF PRODUCT!</strong></li>
+              <li>Administrative features allow for the creation of custom reports, fields, alerts, menus and business logic.</li>
+              <li>Uses an industry-renowned technology stack for high availability and scalability.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Uses of PPS</h2>
+            <ul>
+              <li>Property inspection reports for demolition and renovation.</li>
+              <li>Property maintenance/field service.</li>
+              <li>Document creation (deeds, contracts, proceed orders, invoices, specifications etc).</li>
+              <li>Grant management and Compliance.</li>
+              <li>Assign work directly to contractors and track progress.</li>
+              <li>Easily post properties to your website for purposes of transparency and marketing.</li>
+              <li>Review inventory and track production.</li>
+              <li>Schedule property showings with potential buyers.</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <img class="img-thumbnail img-responsive" src="images/PPS_Parcel_Manager_20150504.jpg" alt="PPS Uses" style="margin-bottom: 10px;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">&copy; 2015 Cuyahoga County Land Reutilization Corporation</p>
+      </div>
+    </footer>
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/land.js"></script>
   </body>
 </html>
