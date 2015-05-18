@@ -34,6 +34,12 @@ body {
   background-repeat:no-repeat;
 }
 
+.jumbotron-bottom {
+  background-image: url(../images/table_chairs.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
 .call-to-action {
   margin: 30px;
   background-color: #f5f5f5;
